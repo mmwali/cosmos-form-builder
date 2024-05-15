@@ -2,6 +2,7 @@
 using API.DTOs.Requests;
 using API.DTOs.Responses;
 using API.Entities;
+using API.Enums;
 using Microsoft.Azure.Cosmos.Linq;
 using Microsoft.EntityFrameworkCore;
 

@@ -1,4 +1,6 @@
-﻿namespace API.DTOs.Requests;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace API.DTOs.Requests;
 
 public class CreateProgramRequest
 {

@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\mahmo\\source\\repos\\JobApplicationApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A292A686-578B-4DB5-BA67-974F156836C0}|API\\API.csproj|c:\\users\\mahmo\\source\\repos\\jobapplicationapi\\api\\entities\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A292A686-578B-4DB5-BA67-974F156836C0}|API\\API.csproj|solutionrelative:api\\entities\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A292A686-578B-4DB5-BA67-974F156836C0}|API\\API.csproj|c:\\users\\mahmo\\source\\repos\\jobapplicationapi\\api\\dtos\\responses\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A292A686-578B-4DB5-BA67-974F156836C0}|API\\API.csproj|solutionrelative:api\\dtos\\responses\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A292A686-578B-4DB5-BA67-974F156836C0}|API\\API.csproj|c:\\users\\mahmo\\source\\repos\\jobapplicationapi\\api\\entities\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A292A686-578B-4DB5-BA67-974F156836C0}|API\\API.csproj|solutionrelative:api\\entities\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A292A686-578B-4DB5-BA67-974F156836C0}|API\\API.csproj|c:\\users\\mahmo\\source\\repos\\jobapplicationapi\\api\\services\\iapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A292A686-578B-4DB5-BA67-974F156836C0}|API\\API.csproj|solutionrelative:api\\services\\iapplicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A292A686-578B-4DB5-BA67-974F156836C0}|API\\API.csproj|c:\\users\\mahmo\\source\\repos\\jobapplicationapi\\api\\services\\programservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A292A686-578B-4DB5-BA67-974F156836C0}|API\\API.csproj|solutionrelative:api\\services\\programservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A292A686-578B-4DB5-BA67-974F156836C0}|API\\API.csproj|c:\\users\\mahmo\\source\\repos\\jobapplicationapi\\api\\dtos\\requests\\createprogramrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A292A686-578B-4DB5-BA67-974F156836C0}|API\\API.csproj|solutionrelative:api\\dtos\\requests\\createprogramrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A292A686-578B-4DB5-BA67-974F156836C0}|API\\API.csproj|c:\\users\\mahmo\\source\\repos\\jobapplicationapi\\api\\controllers\\programscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,8 +31,8 @@
       "RelativeMoniker": "D:0:0:{A292A686-578B-4DB5-BA67-974F156836C0}|API\\API.csproj|solutionrelative:api\\services\\iprogramservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A292A686-578B-4DB5-BA67-974F156836C0}|API\\API.csproj|c:\\users\\mahmo\\source\\repos\\jobapplicationapi\\api\\dtos\\requests\\createprogramrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A292A686-578B-4DB5-BA67-974F156836C0}|API\\API.csproj|solutionrelative:api\\dtos\\requests\\createprogramrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A292A686-578B-4DB5-BA67-974F156836C0}|API\\API.csproj|c:\\users\\mahmo\\source\\repos\\jobapplicationapi\\api\\enums\\inputtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A292A686-578B-4DB5-BA67-974F156836C0}|API\\API.csproj|solutionrelative:api\\enums\\inputtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A292A686-578B-4DB5-BA67-974F156836C0}|API\\API.csproj|c:\\users\\mahmo\\source\\repos\\jobapplicationapi\\api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,17 +54,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "BaseResponse.cs",
               "DocumentMoniker": "C:\\Users\\mahmo\\source\\repos\\JobApplicationApi\\API\\DTOs\\Responses\\BaseResponse.cs",
               "RelativeDocumentMoniker": "API\\DTOs\\Responses\\BaseResponse.cs",
               "ToolTip": "C:\\Users\\mahmo\\source\\repos\\JobApplicationApi\\API\\DTOs\\Responses\\BaseResponse.cs",
               "RelativeToolTip": "API\\DTOs\\Responses\\BaseResponse.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAmwCAAAAAXAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAwwCUAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-14T23:14:46.711Z",
               "IsPinned": true,
@@ -64,16 +72,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\mahmo\\source\\repos\\JobApplicationApi\\API\\Entities\\Program.cs",
               "RelativeDocumentMoniker": "API\\Entities\\Program.cs",
               "ToolTip": "C:\\Users\\mahmo\\source\\repos\\JobApplicationApi\\API\\Entities\\Program.cs",
               "RelativeToolTip": "API\\Entities\\Program.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAA1wDIAAAAYAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-15T00:31:27.959Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IApplicationService.cs",
+              "DocumentMoniker": "C:\\Users\\mahmo\\source\\repos\\JobApplicationApi\\API\\Services\\IApplicationService.cs",
+              "RelativeDocumentMoniker": "API\\Services\\IApplicationService.cs",
+              "ToolTip": "C:\\Users\\mahmo\\source\\repos\\JobApplicationApi\\API\\Services\\IApplicationService.cs",
+              "RelativeToolTip": "API\\Services\\IApplicationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T06:53:52.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InputType.cs",
+              "DocumentMoniker": "C:\\Users\\mahmo\\source\\repos\\JobApplicationApi\\API\\Enums\\InputType.cs",
+              "RelativeDocumentMoniker": "API\\Enums\\InputType.cs",
+              "ToolTip": "C:\\Users\\mahmo\\source\\repos\\JobApplicationApi\\API\\Enums\\InputType.cs",
+              "RelativeToolTip": "API\\Enums\\InputType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T06:30:57.049Z",
               "EditorCaption": ""
             },
             {
@@ -98,20 +132,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ProgramService.cs",
               "DocumentMoniker": "C:\\Users\\mahmo\\source\\repos\\JobApplicationApi\\API\\Services\\ProgramService.cs",
               "RelativeDocumentMoniker": "API\\Services\\ProgramService.cs",
               "ToolTip": "C:\\Users\\mahmo\\source\\repos\\JobApplicationApi\\API\\Services\\ProgramService.cs",
               "RelativeToolTip": "API\\Services\\ProgramService.cs",
-              "ViewState": "AQIAAP0AAAAAAAAAAAAwwBsBAAAuAAAA",
+              "ViewState": "AQIAAJYAAAAAAAAAAAAgwLcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-15T02:55:39.852Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ProgramsController.cs",
               "DocumentMoniker": "C:\\Users\\mahmo\\source\\repos\\JobApplicationApi\\API\\Controllers\\ProgramsController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\ProgramsController.cs",
@@ -124,20 +158,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "CreateProgramRequest.cs",
               "DocumentMoniker": "C:\\Users\\mahmo\\source\\repos\\JobApplicationApi\\API\\DTOs\\Requests\\CreateProgramRequest.cs",
               "RelativeDocumentMoniker": "API\\DTOs\\Requests\\CreateProgramRequest.cs",
               "ToolTip": "C:\\Users\\mahmo\\source\\repos\\JobApplicationApi\\API\\DTOs\\Requests\\CreateProgramRequest.cs",
               "RelativeToolTip": "API\\DTOs\\Requests\\CreateProgramRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAAAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAwBAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-14T23:18:12.767Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "IProgramService.cs",
               "DocumentMoniker": "C:\\Users\\mahmo\\source\\repos\\JobApplicationApi\\API\\Services\\IProgramService.cs",
               "RelativeDocumentMoniker": "API\\Services\\IProgramService.cs",
@@ -150,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\mahmo\\source\\repos\\JobApplicationApi\\API\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "API\\Data\\AppDbContext.cs",
@@ -163,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\mahmo\\source\\repos\\JobApplicationApi\\API\\appsettings.json",
               "RelativeDocumentMoniker": "API\\appsettings.json",
@@ -176,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\mahmo\\source\\repos\\JobApplicationApi\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",

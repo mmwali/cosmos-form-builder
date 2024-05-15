@@ -10,6 +10,7 @@ namespace API.Data
 
         public DbSet<Entities.Program> Programs { get; set; }
         public DbSet<Entities.Question> Questions { get; set; }
+        public DbSet<Entities.Answer> Answers { get; set; }
 
         public static async Task SeedDatabaseAsync(DbContextOptions<AppDbContext> options)
         {
