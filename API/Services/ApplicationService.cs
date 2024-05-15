@@ -60,7 +60,7 @@ public class ApplicationService : IApplicationService
 
         app.Answers.AddRange(answers);
 
-        await _context.AddAsync(app);
+        await _context.Applications.AddAsync(app);
 
         var isSaved = await _context.SaveChangesAsync() > 0;
         if (isSaved)

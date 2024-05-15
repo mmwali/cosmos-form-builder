@@ -1,4 +1,5 @@
 ﻿using API.Entities;
+using API.Enums;
 
 namespace API.DTOs.Requests;
 

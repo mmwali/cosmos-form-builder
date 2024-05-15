@@ -5,10 +5,6 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-var options = new DbContextOptionsBuilder<AppDbContext>()
-    .UseCosmos(builder.Configuration
-    .GetConnectionString("DefaultConnection")!, "JobApp");
-await AppDbContext.SeedDatabaseAsync(options.Options);
 
 builder.Services.AddDbContext<AppDbContext>(opt => opt.UseCosmos(builder.Configuration
     .GetConnectionString("DefaultConnection")!, "JobApp"));
@@ -18,6 +14,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddTransient<IProgramService, ProgramService>();
+builder.Services.AddTransient<IApplicationService, ApplicationService>();
 
 var app = builder.Build();
 

@@ -6,16 +6,16 @@ namespace API.Data
 {
     public class AppDbContext: DbContext
     {
-        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
+        public AppDbContext()
+        {
+            
+        }
+        public AppDbContext(DbContextOptions<DbContext> options) : base(options) { }
 
         public DbSet<Entities.Program> Programs { get; set; }
         public DbSet<Entities.Question> Questions { get; set; }
         public DbSet<Entities.Answer> Answers { get; set; }
+        public DbSet<Entities.Application> Applications { get; set; }
 
-        public static async Task SeedDatabaseAsync(DbContextOptions<AppDbContext> options)
-        {
-            var context = new AppDbContext(options);
-            await context.Database.EnsureCreatedAsync();
-        }
     }
 }

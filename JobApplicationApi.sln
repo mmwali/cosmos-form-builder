@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{A292A686-578B-4DB5-BA67-974F156836C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{D449FB91-648F-431A-8996-92705234232F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +22,15 @@ Global
 		{A292A686-578B-4DB5-BA67-974F156836C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A292A686-578B-4DB5-BA67-974F156836C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A292A686-578B-4DB5-BA67-974F156836C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D449FB91-648F-431A-8996-92705234232F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D449FB91-648F-431A-8996-92705234232F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D449FB91-648F-431A-8996-92705234232F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D449FB91-648F-431A-8996-92705234232F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0EF7E9A-04CA-4765-9726-F722BABF0896}
 	EndGlobalSection
 EndGlobal
