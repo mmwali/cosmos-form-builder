@@ -78,18 +78,15 @@ public class ProgramsController : ControllerBase
     public async Task<ActionResult<BaseResponse>> DeleteQuestionAsync(Guid questionId)
     
     {
-        if (!ModelState.IsValid)
-        {
-            return BadRequest(new BaseResponse()
-            {
-                Message = string.Join(" | ", ModelState.Values
-                   .SelectMany(v => v.Errors)
-                   .Select(e => e.ErrorMessage)),
-                Status = false
-            });
-        }
-
         var response = await _programService.DeleteQuestionAsync(questionId);
+        return response.Status? Ok(response) : StatusCode(500, response);
+    }
+
+    [HttpGet("{id}")]
+    public async Task<ActionResult<BaseResponse>> GetProgramAsync(Guid id)
+    
+    {
+        var response = await _programService.ViewProgramAsync(id);
         return response.Status? Ok(response) : StatusCode(500, response);
     }
 

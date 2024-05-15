@@ -1,6 +1,4 @@
-﻿using API.Entities;
-
-namespace API.DTOs.Requests;
+﻿namespace API.DTOs.Requests;
 
 public class CreateProgramRequest
 {
@@ -13,18 +11,4 @@ public class CreateProgramRequest
     public required PersonalQuestionRequest DateOfBirth { get; set; }
     public required PersonalQuestionRequest Gender { get; set; }
 
-}
-public class PersonalQuestionRequest
-{
-    public bool IsInternal { get; set; } = false;
-    public bool IsHidden { get; set; } = false;
-
-}
-public class QuestionRequest
-{
-    public required string Label { get; set; }
-    public IEnumerable<string>? Choices { get; set; }
-    public bool EnableOtherOption { get; set; } = false;
-    public int? MaxChoices { get; set; }
-    public required InputType QuestionType { get; set; }
 }
